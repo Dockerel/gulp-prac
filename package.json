@@ -1,0 +1,46 @@
+{
+  "name": "gulp-prac",
+  "version": "1.0.0",
+  "description": "gulp prac",
+  "main": "gulpfile.babel.js",
+  "type": "module",
+  "browserslist": [
+    "last 2 versions"
+  ],
+  "scripts": {
+    "dev": "gulp dev",
+    "build": "gulp build",
+    "deploy": "gulp deploy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dockerel/gulp-prac.git"
+  },
+  "author": "Giheon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Dockerel/gulp-prac/issues"
+  },
+  "homepage": "https://github.com/Dockerel/gulp-prac#readme",
+  "dependencies": {
+    "del": "^4.1.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/register": "^7.4.4",
+    "babelify": "^10.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-bro": "^2.0.0",
+    "gulp-csso": "^4.0.1",
+    "gulp-gh-pages": "^0.5.4",
+    "gulp-image": "^6.2.1",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^5.1.0",
+    "gulp-webserver": "^0.9.1",
+    "node-sass": "^7.0.3",
+    "sass": "^1.55.0",
+    "uglifyify": "^5.0.2"
+  }
+}
